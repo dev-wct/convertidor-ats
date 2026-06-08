@@ -2,7 +2,7 @@ import pandas as pd
 
 # Creamos un diccionario con las columnas reales de tu ATS
 columnas = [
-    "TipoIdInformante",
+    "TipoIDInformante",
     "IdInformante",
     "razonSocial",
     "Anio",
@@ -61,7 +61,7 @@ columnas = [
 
 # Fila de ejemplo basada en tus datos reales
 datos_ejemplo = {
-    "TipoIdInformante": ["R"],
+    "TipoIDInformante": ["R"],
     "IdInformante": [993383273001],
     "razonSocial": ["RAPIVISA S.A."],
     "Anio": [2026],
@@ -88,6 +88,10 @@ datos_ejemplo = {
     "montoIva": [5.51],
     "valorRetBienes": [0.0],
     "valorRetServicios": [0.0],
+    "codRetAir": [303],
+    "baseImpAir": [36.75],
+    "porcentajeAir": [1.0],
+    "valRetAir": [0.37],
     "DenoProv": ["ZUKALO S.A."],
 }
 
